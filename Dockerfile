@@ -1,1 +1,1 @@
-FROM node:16.17.1-buster-slim
+FROM node:10.0.2-buster-slim
