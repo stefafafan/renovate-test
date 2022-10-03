@@ -4,5 +4,11 @@
     "config:base",
     ":separateMultipleMajorReleases",
     ":prConcurrentLimit10"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["nodejs/node"],
+      "allowedVersions": "/^[1-9][02468].*/",
+    }
   ]
 }
