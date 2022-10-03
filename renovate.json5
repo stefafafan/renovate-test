@@ -13,5 +13,12 @@
         "datasourceTemplate": "node",
         "versioningTemplate": "node"
     }
-  ]
+  ],
+  "packageRules": [
+		{
+			"matchPackageNames": ["node"],
+			"matchManagers": ["dockerfile"],
+			"enabled": false
+		}
+	]
 }
