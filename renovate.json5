@@ -8,7 +8,7 @@
   "packageRules": [
     {
       "matchPackageNames": ["nodejs/node"],
-      "allowedVersions": "<=16.0.0",
+      "allowedVersions": "/^[1-9][02468]/",
     }
   ]
 }
